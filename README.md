@@ -1,4 +1,4 @@
-openframework_marcinkowski
-==========================
+Marcinkowski Open Framework subtheme
+====================================
 
-Drupal Open Framework subtheme for marcinkowski.ca
+This is a subtheme for the Open Framework Drupal theme.
