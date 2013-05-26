@@ -10,7 +10,7 @@ function openframework_marcinkowski_field__taxonomy_vocabulary_1(&$variables) {
   // Render the items.
   $output .= '<div class="field-items"' . $variables['content_attributes'] . '>';
   foreach ($variables['items'] as $delta => $item) {
-    $classes = 'field-item label label-success ' . ($delta % 2 ? 'odd' : 'even');
+    $classes = 'field-item label label-info ' . ($delta % 2 ? 'odd' : 'even');
     $output .= '<div class="' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</div>';
   }
   $output .= '</div>';
