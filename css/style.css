@@ -38,6 +38,10 @@
 /* ----- Fat Footer ------------------ */
 
 /* CONTENT ******************************** */
+article {
+    margin-bottom: 4em;
+    border-bottom: 1px solid #dddddd;
+}
 
 /* VIEWS ********************************** */
 /* ----- Search Results -------------- */
