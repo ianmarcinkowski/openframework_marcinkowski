@@ -4,6 +4,16 @@
 /* ----- Body ------------------------ */
 /* ----- Custom Fonts ---------------- */
 /* ----- Text ------------------------ */
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+body, html {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Droid Serif', serif;
+}
 /* ----- Links ----------------------- */
 /* ----- Lists ----------------------- */
 /* ----- Tables ---------------------- */
@@ -41,6 +51,9 @@
 article {
     margin-bottom: 4em;
     border-bottom: 1px solid #dddddd;
+}
+#disqus_thread {
+    margin-top: 4em;
 }
 
 /* VIEWS ********************************** */
