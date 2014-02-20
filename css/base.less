@@ -1,64 +1,49 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,500);
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
-@import url(http://fonts.googleapis.com/css?family=Ledger);
-@import url(http://fonts.googleapis.com/css?family=Crete+Round);
 /* THEME OPTIONS ************************** */
+
 /* GLOBAL ********************************* */
 /* ----- Body ------------------------ */
 /* ----- Custom Fonts ---------------- */
 /* ----- Text ------------------------ */
-body,
-html {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 400;
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Ledger);
+@import url(http://fonts.googleapis.com/css?family=Crete+Round);
+
+body, html {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Droid Serif', serif;
-  margin-top: .75em;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Droid Serif', serif;
+    margin-top: .75em;
 }
-p {
-  margin-bottom: .25em;
-}
-.content-body h1 {
-  font-size: 30.8px;
-}
-.content-body h2 {
-  font-size: 26.775px;
-}
-.content-body h3 {
-  font-size: 22.05px;
-}
-.content-body h4 {
-  font-size: 15.75px;
-}
-.content-body h5 {
-  font-size: 13.3px;
-}
-.content-body h6 {
-  font-size: 11.9px;
-}
+p { margin-bottom: .25em; }
+
+.content-body h1 { font-size: @h1_size; }
+.content-body h2 { font-size: @h2_size; }
+.content-body h3 { font-size: @h3_size; }
+.content-body h4 { font-size: @h4_size; }
+.content-body h5 { font-size: @h5_size; }
+.content-body h6 { font-size: @h6_size; }
 /* ----- Links ----------------------- */
 /* ----- Lists ----------------------- */
 /* ----- Tables ---------------------- */
 /* ----- Forms ----------------------- */
+
 /* HEADER ********************************* */
 /* ----- Header Region --------------- */
 #header {
-  background: url('../i/chch-paulsmith.png') repeat-x;
-  margin: 0;
+    background: url('../i/chch-paulsmith.png') repeat-x;
+    margin: 0;
 }
 #header > .container {
-  margin-top: 20px;
-  margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 /* ----- Search Box ------------------ */
 /* ----- Logo ------------------------ */
 /* ----- Site Title and Slogan ------- */
+
 /* NAVIGATION ***************************** */
 /* ----- Main Navigation ------------- */
 /* ----- Secondary Navigation -------- */
@@ -67,70 +52,85 @@ p {
 /* ----- Second Sidebar Menu Blocks -- */
 /* ----- Admin Menu ------------------ */
 /* ----- Pager Nav ------------------- */
+
 /* SIDEBARS ******************************* */
+
 /* FOOTER ********************************* */
 /* ----- Fat Footer ------------------ */
+
 /* CONTENT ******************************** */
 article {
-  margin-bottom: 4em;
-  border-bottom: 1px solid #dddddd;
+    margin-bottom: 4em;
+    border-bottom: 1px solid #dddddd;
 }
 #disqus_thread {
-  margin-top: 4em;
+    margin-top: 4em;
 }
+
 /* Block quote styles from politico.com */
 blockquote {
-  margin-bottom: 2em;
-  margin-top: 2em;
-  padding: 2em 0px;
-  border-top: 2px solid #b70000;
-  border-bottom: 2px solid #b70000;
-  border-left: none;
-  padding: 1em 0px;
-  font-family: "Crete Round", Georgia, Times, "Times New Roman", serif;
-  clear: both;
-  min-height: 100px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 2em 0px;
+    border-top: 2px solid rgb(183, 0, 0);
+    border-bottom: 2px solid rgb(183, 0, 0);
+    border-left: none;
+    padding: 1em 0px;
+    font-family: "Crete Round",Georgia,Times,"Times New Roman",serif;
+    clear: both;
+    min-height: 100px;
 }
+
 blockquote:before {
-  font-size: 212px;
-  content: "“";
-  font: bold 152px/1em "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #b70000;
-  float: left;
-  margin: -0.08em 0.05em 0px 0px;
-  height: 0.45em;
+    font-size: 212px;
+    content: "“";
+    font: bold 152px/1em "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(183, 0, 0);
+    float: left;
+    margin: -0.08em 0.05em 0px 0px;
+    height: 0.45em;
 }
+
 blockquote > p {
-  font-size: 1.75em;
-  line-height: 1.5em;
+    font-size: 1.75em;
+    line-height: 1.5em;
 }
+
 /* VIEWS ********************************** */
 /* ----- Search Results -------------- */
+
 /* CONTAINERS ***************************** */
 /* ----- Blocks ---------------------- */
 /* ----- Wells ----------------------- */
 /* ----- Callouts and Blockquotes ---- */
 /* ----- Pullquote Text -------------- */
+
 /* POSTCARD LAYOUTS ********************** */
+
 /* IMAGES ******************************** */
+
 /* ICONS ********************************* */
+
 /* HELPER CLASSES ************************ */
 /* ----- Style ----------------------- */
 /* ----- Positioning ----------------- */
 /* ----- Sizing ---------------------- */
+
 /* GENERAL OVERRIDES ********************* */
 /* ----- Bootstrap Overrides --------- */
 .label a {
-  color: #ffffff;
+    color: #ffffff;
 }
 /* ----- Field Collection Overrides -- */
 /* ----- Field Label Overrides ------- */
 .field-item.label {
-  margin-right: 1em;
+    margin-right: 1em;
 }
+
 /* ADMINISTRATION ************************ */
 /* ----- Admin ----------------------- */
 /* ----- User Block ------------------ */
+
 /* MEDIA QUERIES ************************* */
 /* ----- Responsive ------------------ */
 /* ----- Print ----------------------- */
